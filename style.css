@@ -4036,7 +4036,13 @@ margin-top: 5px;
  
 
 }
+#bookingform form #submit
+{
+margin-left: 200px; font-size: 20px; margin-top: 40px; background-color: blue; color: white; font-weight: bold;
+padding-top: 5px;
+padding-bottom: 10px;
 
+}
 
 
 
