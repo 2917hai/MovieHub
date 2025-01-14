@@ -1,4 +1,12 @@
 
+h1
+{
+    font-weight: bolder;
+     color: red;
+      text-align: center;
+       margin-top: 50px;
+        font-size: 30px;
+}
 table 
 {
     border: 2px solid blue;
@@ -7,11 +15,14 @@ table
     margin-left: 100px;
     margin-top: 50px;
     width: 1300px;
+    line-height: 50px;
 }
 table thead
 {
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 10px;
+    padding: 20px;
+    padding-right: 0px;
 
 }
 table thead th
@@ -54,27 +65,49 @@ table tbody
 {
     margin-top: 20px;
 }
-
-
+a
+{
+    margin-left: 700px; 
+    color: blue;
+     font-size: 20px;
+      text-decoration: none;
+}
 
 @media (max-width:480px)
 {
+
+    body
+    {
+        width: 480px;
+    }
+    h1
+{
+    font-weight: bolder;
+     color: red;
+     margin-left: -80px;
+       margin-top: 50px;
+        font-size: 30px;
+        width: 480px;
+}
 
     table 
 {
     border: 2px solid blue;
     background-color: aquamarine;
     border-radius: 20px;
-    margin-left: 5px;
+    margin-left: 0px;
     margin-top: 50px;
-    width: 450px;
+    width: 345px;
     line-height: 12px;
     padding: 0;
+    /* cellspacing="15px"
+    cellpadding="20px" */
+   
 }
 table thead
 {
     font-weight: bolder;
-    font-size: 10px;
+    font-size: 6px;
 
 }
 table thead th
@@ -86,25 +119,26 @@ table thead td
 {
    height: 20px;
    width: 20px;
+  
 }
 table tbody 
 {
-    font-size: 10px;
+    font-size: 7px;
     border: none;
 }
-    #updateshow
+ #updateshow
     {
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 50px;
     border-radius: 20px;
     background-color: aqua;
-     width: 450px;
+     width: 300px;
     /* height: 700px;  */
-    padding: 50px;
+    padding: 15px;
     padding-top: 0;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 40px;
     /* display: none; */
     margin-bottom: 50px;
     }
@@ -116,11 +150,21 @@ table tbody
     border-radius: 20px;
     padding: 5px;
     float: right;
-    width: 100%;
+    width: 300px;
+    font-size: 10px;
 }
 #updateshow upt
 {
     margin-top: 20px;
 }
+
+a
+{
+    margin-left: 100px; 
+    color: blue;
+     font-size: 20px;
+      text-decoration: none;
+}
+
 }
 
